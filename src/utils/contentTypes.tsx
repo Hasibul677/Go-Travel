@@ -2,7 +2,7 @@ import { JSX } from "react";
 
 interface NavigationLink {
   id: number;
-  href: string;
+  to: string;
   text: string;
   dropdown: boolean;
   dropdownLinks?: NavigationLink[];
@@ -58,7 +58,7 @@ interface Testimonial {
 
 interface FooterLink {
   id: number;
-  href: string;
+  to: string;
   name: string;
   Icon?: (props: { className: string }) => JSX.Element;
 }
@@ -72,7 +72,7 @@ interface FooterCol {
 interface FooterSocials {
   id: number;
   alt: string;
-  href: string;
+  to: string;
   Icon: (props: { className: string }) => JSX.Element;
 }
 
