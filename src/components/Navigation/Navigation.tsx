@@ -33,7 +33,7 @@ export default function Navigation() {
         <div className="flex items-center gap-x-5">
           <BellIcon className="fill-gray-600 cursor-pointer hover:fill-black" />
           <SearchIcon className="fill-gray-600 cursor-pointer hover:fill-black" />
-          <button className="bg-primary-700 hover:bg-primary-800 cursor-pointer rounded-[0.625rem] px-7 py-3.5 text-lg font-medium text-white transition-all duration-200">
+          <button className="bg-primary-700 hover:bg-primary-800 cursor-pointer rounded-[0.625rem] px-7 py-3.5 text-lg font-medium text-white transition-all duration-200 text-nowrap">
             Join Now
           </button>
         </div>
