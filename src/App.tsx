@@ -12,10 +12,10 @@ function App() {
       <Page>
         <Header>
           <Navigation />
-          <Hero/>
+          <Hero />
         </Header>
         <Main>
-          <Steps/>
+          <Steps />
         </Main>
       </Page>
     </Router>
