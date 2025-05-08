@@ -5,6 +5,7 @@ import Page from "./components/Page";
 import Hero from "./components/Hero/Hero";
 import Main from "./components/Main";
 import Steps from "./components/Steps/Steps";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Header>
         <Main>
           <Steps />
+          <Services />
         </Main>
       </Page>
     </Router>
