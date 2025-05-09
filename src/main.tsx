@@ -6,8 +6,8 @@ import ContentProtector from "./ContentProtector.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    {/* <ContentProtector> */}
+    <ContentProtector>
       <App />
-    {/* </ContentProtector> */}
+    </ContentProtector>
   </StrictMode>,
 );
