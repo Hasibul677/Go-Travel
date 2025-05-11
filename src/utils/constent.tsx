@@ -1,0 +1,5 @@
+const LOCATION_CARDS_SHOWN = 3;
+
+export {
+    LOCATION_CARDS_SHOWN
+}

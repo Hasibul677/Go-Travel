@@ -7,6 +7,7 @@ import Main from "./components/Main";
 import Steps from "./components/Steps/Steps";
 import Services from "./components/Services/Services";
 import News from "./components/News/News";
+import ExploreMore  from "./components/ExploreMore/ExploreMore";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Steps />
           <Services />
           <News/>
+          <ExploreMore/>
         </Main>
       </Page>
     </Router>
