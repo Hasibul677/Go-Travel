@@ -15,7 +15,7 @@ export default function Hero() {
 
                 <ul className="absolute -bottom-23 mx-21.5 flex gap-x-18 rounded-[1.5rem] bg-white px-16 py-18 drop-shadow-[0px_2px_40px_rgba(0,0,0,.06)]">
                     {heroBenefits?.map((benefit) => (
-                        <HeroBenefit benefit={benefit} />
+                        <HeroBenefit benefit={benefit} key={benefit.id}/>
                     ))}
                 </ul>
             </div>
